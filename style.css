@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;  
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.8)),url(https://cdn.dribbble.com/users/7264759/screenshots/18117442/media/ad27a42e47c3cb02685815d6fd7214ec.png);
+
+    /* background-color:#001220; */
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+/** heading */
+#title{
+
+ color: #A8D22Aff;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 80px;
+    text-align: center;
+    text-shadow: #A8D22Aff -2px 0,
+                  bisque    3px 0;
+
+}
+
+.row{
+    margin-top: 30px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  
+}
+
+
+/* Search Box  */
+#input{
+    border-radius: 10px;
+    margin-top: 15px;
+}
+#input:hover{
+
+box-shadow:  2px 2px 10px #a2d900;
+}
+
+#submit{
+   margin-top: 20px;
+    width: 100px;
+ border-radius: 10px;
+ background-color: #A8D22Aff;
+ color: black;
+}
+#submit:hover{
+    background-color: rgb(191, 255, 0);
+    box-shadow:  2px 2px 10px #a2d900;
+    font-weight: 600;
+    width: 130px;
+}
+#form{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+      /** Table  */
+.table{
+    margin-bottom:20px;
+    border-radius: 10px;
+background: #bfff00;
+text-align: center;
+align-items: center;
+background-color: #A8D22Aff;
+border-radius: 5px;
+color: #001220;
+}
+.table:hover{
+    box-shadow:  2px 2px 5px #a2d900;
+
+}
+
+tbody{
+    background-color: rgb(221, 253, 123);
+    font-size: 16px;
+    font-weight: 600;
+   
+}
+tr,td,th{
+  
+    border: 1px solid rgb(121, 120, 120);
+}
+p{
+    margin: 0;
+    padding: 0;
+    font-weight: 100;
+}
+
+
+#welcome,#content{
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    /* text-shadow:  3px 3px 15px #a2d900; */
+  
+
+}
