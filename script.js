@@ -172,8 +172,14 @@ async function foo() {
   for (j = 0; j < country_value.length-3; j++) {
 
     var tr2 = document.createElement("tr")       // creating an tr2
+    
+ const regionNamesInEnglish = new Intl.DisplayNames(['en'], { type: 'region' });
+
+    var result = regionNamesInEnglish.of(`${country_value[j]}`);  //country code into Full name
+
     var td2 = document.createElement("td")        // creating an td2
-    td2.innerHTML = `${country_value[j]}`
+    td2.innerHTML = `${result}`
+    
     var td3 = document.createElement("td")       //  creating an td3
     td3.innerHTML = `${prob_value[j]}`
 
